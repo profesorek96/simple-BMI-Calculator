@@ -49,7 +49,7 @@ namespace BMI_CAL
                     else label2.Text = "Nadwaga !!!";
                 }
             }
-            else label2.Text = "Nie wypelniles poprawnie wymaganych pol";
+            else label2.Text = "Błąd danych";
            
         
         }
