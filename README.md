@@ -1,2 +1,3 @@
 # simple-BMI-Calculator
-prosty kalkulator BMI
+Prosty kalkulator BMI
+![ScreenShot](https://github.com/profesorek96/simple-BMI-Calculator/blob/master/screenshot/1.bmp)
