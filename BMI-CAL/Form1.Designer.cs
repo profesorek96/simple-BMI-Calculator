@@ -46,6 +46,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Oblicz";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -56,7 +57,6 @@
             this.label1.Size = new System.Drawing.Size(82, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "BMI Cal";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -69,10 +69,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(153, 271);
+            this.label2.Location = new System.Drawing.Point(59, 293);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 16);
             this.label2.TabIndex = 3;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox2
             // 
@@ -105,7 +106,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Kobieta",
             "Mężczyzna"});
-            this.comboBox1.Location = new System.Drawing.Point(119, 56);
+            this.comboBox1.Location = new System.Drawing.Point(131, 69);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 7;
